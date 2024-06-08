@@ -14,7 +14,7 @@ function healthyFood() {
             image={foodItem.image}
             name={foodItem.name}
             calories={foodItem.calories}
-            url={foodItem.url}  // Pass the URL
+            url={foodItem.url}  
           />
         ))}
       </div>
