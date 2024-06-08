@@ -9,17 +9,17 @@ export default function Navbar() {
 
   const toggleNavBar = () => {
     setOpenLinks(!openLinks);
-  }
+  };
 
   return (
     <div className="navbar">
-      <div className="leftSide" id={openLinks ? "open" : "close"}>
+      <div className="leftSide" id={openLinks ? 'open' : 'close'}>
         <img src={Logo} alt="Logo" />
         <h1 className="navbar-title">Health Website</h1>
-        <div className='hiddenLinks'>
+        <div className="hiddenLinks">
           <Link to="/">Home</Link>
           <Link to="/BMI">BMI</Link>
-          <Link to="/healthyFood">Healthy food</Link>
+          <Link to="/healthyFood">Healthy Food</Link>
           <Link to="/Exercises">Exercises</Link>
           <Link to="/About">About</Link>
           <Link to="/Contact">Contact</Link>
@@ -28,7 +28,7 @@ export default function Navbar() {
       <div className="rightSide">
         <Link to="/">Home</Link>
         <Link to="/BMI">BMI</Link>
-        <Link to="/healthyFood">Healthy food</Link>
+        <Link to="/healthyFood">Healthy Food</Link>
         <Link to="/Exercises">Exercises</Link>
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
