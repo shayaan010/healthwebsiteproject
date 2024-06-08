@@ -14,7 +14,7 @@ function Exercises() {
             image={exerciseItem.image}
             exercise={exerciseItem.exercise}
             caloriesBurnt={exerciseItem.caloriesBurnt}
-            url={exerciseItem.url}  // Pass the URL
+            url={exerciseItem.url}  
           />
         ))}
       </div>
